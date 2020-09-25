@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./style.css">
+      <title>Forma</title>
+   </head>
+   <body>
+
+      <div class="formFon">
+         <div class="mainFrame">
+
+            <div class="leftBlock">
+               <div class="photo"></div>
+            </div>
+
+            <div class="rightBlock">
+               
+               <form action="#" class="forma">
+                  <div class="inputBlock">
+                     <label class="nameText" for="name">Name</label>
+                     <input type="text" id="name" name="name" placeholder="Luke Skywalker">
+                  </div>
+
+                  <div class="inputBlock">
+                     <label class="nameText"  for="">Gender</label>
+                     <div class="genderBlock">
+                        <span class="radioGender" name = "male" value="male">
+                           <img src="./images/male.png" alt="male">
+                        </span>
+                        <lable class="nameText">Male</lable>
+                     </div>
+                     <div class="genderBlock">
+                        <span class="radioGender" name="female" value="female">
+                           <img src="./images/female.png" alt="female">
+                        </span>
+                        <lable class="nameText">Female</lable>
+                     </div>
+                     <input type="hidden" class="gender" name="six" value="male">
+                  </div>
+
+                  <div class="inputBlock">
+                     <label class="nameText"  for="date">Date of Birth</label>
+                     <input type="datetime" name="birthdate" id="date" placeholder="May 25 1977">
+                  </div>
+
+                  <div class="inputBlock">
+                     <label class="nameText"  for="email">Email</label>
+                     <input type="email" name="email" id="email" placeholder="lukeswalker@gmail.com">
+                  </div>
+                  <div class="inputBlock">
+                     <label class="nameText"  for="city">City</label>
+                     <input type="text" id="city" name="city" placeholder="Moisture Farm">
+                  </div>
+
+                  <div class="inputBlock">
+                     <label class="nameText"  for="country">Country</label>
+                     <input type="text" id="country" name="country" placeholder="Tatooine">
+                  </div>
+
+                  <div class="inputBlock">
+                     <label class="nameText" >Subscription</label>
+                     <div class="subscribBlock">
+                        <span class="subscribButtons sb1" name="bronze" value="bronze">Bronze</span>
+                        <span class="subscribButtons sb2" name="silver" value="silver">Slver</span>
+                        <span class="subscribButtons sb3" name="silver" value="silver">Gold</span>
+                        <input class="subscrib" type="hidden" value="bronze">
+                     </div>
+                  </div>
+
+                  <div class="inputBlock">
+                     <button type ="button" class="cancelButton">CANCEL</button>
+                     <button type="submit" class="saveButton">SAVE</button>
+                  </div>
+               </form>
+
+            </div>
+         </div>
+      </div>
+
+      <script src="./script.js"></script>
+   </body>
+</html>
